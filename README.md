@@ -1,16 +1,16 @@
-
 ## Learning Go
 
-My Golang learning journey  
+My Golang learning journey
 
 How I Created this repo
 
-* chapter/learning part (folder name )
+- chapter/learning part (folder name )
+
 ## Roadmap
 
-- Boring Hello-World
+- Boring Hello-World (Bare bone)
 
-- Data types & comments (Bare-Bone)
+- Data types & comments (types)
 
 - variables (variables)
 
@@ -19,6 +19,3 @@ How I Created this repo
 - constants (constants)
 
 - input from terminal (input)
-
-
-

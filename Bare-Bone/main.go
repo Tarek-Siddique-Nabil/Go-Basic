@@ -1,49 +1,24 @@
 package main
 
+/*
+ ? প্রশ্নঃ এখানে package এর নাম কি হবে / package এর নাম কেন main হলো?
+ * উত্তরঃ এখানে package মূলত  একটি ব্লক অফ কোডকে বোঝাতে ব্যবহার হয়েছে । এখানে প্যাকেজের নাম হলো main কারণ এটি একটি মেইন প্রোগ্রাম হিসেবে কাজ করবে। এটি একটি স্ট্যান্ডার্ড প্র্যাকটিস।
+ *        যদি আমরা আমরা package main লিখি তাহলে মূলত কোডটি  এক্সিটিউবল হিসেবে কাজ করবে।  আমরা যদি  কোনো এক্সিটিউবল ফাইল তৈরি করি তাহলে এটি মূলত একটি মেইন প্রোগ্রাম হিসেবে কাজ করবে  এবং একটি main ফাংশন থাকতে হবে । তবে  আমরা যদি অন্য কোনো নাম ব্যবহার করি এক্ যেমন package xyz তবে এটি  একটি লাইব্রেরি / মডিউল হিসেবে কাজ করবে । যা সরাসরি  এক্সিকিউটিবিল হিসেবে কাজ করবে না। বরং অন্য প্যাকেজে  import করে ব্যবহার করতে হবে।
+*/
 import "fmt"
+
+/*
+ ? প্রশ্নঃ এখানে import কি করা হয়েছে?
+ * উত্তরঃ এখানে fmt নামক প্যাকেজ ইম্পোর্ট করা হয়েছে। এই প্যাকেজ হলো ফরম্যাটিং প্যাকেজ। এই প্যাকেজ ব্যবহার করে আমরা কোডে ফরম্যাটিং করতে পারি। এটি একটি স্ট্যান্ডার্ড প্যাকেজ।
+ ? প্রশ্ন ঃ স্ট্যান্ডার্ড প্যাকেজ কি?
+ * উত্তরঃ যে প্যাকেজ গুলো Golang প্রোগ্রামিং ল্যাঙ্গুয়েজের সাথে ডিফল্ট আসে সেগুলোকে স্ট্যান্ডার্ড প্যাকেজ বলা হয়। এগুলো গোলাঙ্গ প্রোগ্রামিং ল্যাঙ্গুয়েজের সাথে ডিফল্ট আসে তাই এগুলো ব্যবহার করা খুব সহজ।
+*/
 
 func main() {
 
-	//* type 1
-
-	// var fullName string
-	// var country string
-	// var age int
-
-	// fullName = "Tarek Siddique Nabil"
-	// country = "Bangladesh"
-	// age = 30
-
-	//* type 2
-	// var fullName string = "Tarek Siddique Nabil"
-	// var country string = "Bangladesh"
-	// var age int = 30
-
-	//* type 3
-
-	fullName := "Tarek Siddique Nabil"
-	country := "Bangladesh"
-	age := 30
-
-	//* define variable  type 1
-	// fmt.Println("My name is ", fullName)
-	// fmt.Println("I am live in", country)
-	// fmt.Println("I am", age, "years old")
-
-	// * define variable  type 2
-
-	fmt.Printf("My name is %v\n", fullName)
-	/*
-
-		*	here if we use Println our output will be = My name is %v Tarek Siddique Nabil
-
-		?	so if we use %v for print variable we need to use printf insted println ,
-
-		!	but if we use printf than our output will be "My name is Tarek Siddique NabilI am live in Bangladesh" we can't see any line brack thats why we used \n escape sequense for a line break
-
-
-	*/
-	fmt.Println("I am live in", country)
-	fmt.Println("I am", age, "years old")
-
+	fmt.Println("Hello, World!")
+	fmt.Print("Hello, World second time!")
 }
+
+/*
+ */
