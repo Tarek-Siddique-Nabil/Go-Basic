@@ -47,3 +47,13 @@ func main() {
 	fmt.Println("I am", age, "years old")
 
 }
+
+/*
+
+! By Deafult Value of data types
+
+	* uint , unit8 , unit16 , unit32 , unit64 , int , int8 , int16 , int32 , int64 ,float32 , float64, rune = 0
+	* string = ""
+	* bool = false
+
+*/
